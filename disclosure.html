@@ -1,54 +1,10 @@
 <!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Раскрытие информации о рекламе — TarifPro</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    /* Небольшие локальные правки для читаемости страницы */
-    body { font-family: Arial, sans-serif; background: #fff; color: #111; padding: 28px; }
-    .container { max-width: 900px; margin: 0 auto; }
-    h1 { margin-top: 0; }
-    p { margin: 0 0 12px 0; line-height: 1.5; }
-    .muted { color: #666; font-size: 0.95em; }
-    .highlight { font-weight: 600; }
-  </style>
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Раскрытие информации — TarifPro</title><link rel="stylesheet" href="style.css"></head>
 <body>
-  <div class="container">
+  <div class="container" style="background:transparent;padding-top:28px">
     <h1>Раскрытие информации о рекламе и партнёрских ссылках</h1>
-
-    <p class="muted">Актуально на дату публикации: <span id="effective-date"></span></p>
-
-    <h2>1. Цель</h2>
-    <p>Эта страница объясняет, как на сайте TarifPro используются рекламные материалы, партнёрские ссылки и коммерческие соглашения. Наша цель — обеспечить прозрачность перед пользователями.</p>
-
-    <h2>2. Партнёрские ссылки и вознаграждения</h2>
-    <p><span class="highlight">TarifPro</span> может содержать партнёрские ссылки и реферальные ссылки на сторонние сервисы и продукты. При переходе по таким ссылкам мы иногда получаем вознаграждение или комиссию. Это не влияет на объективность базовых сведений, но может влиять на порядок представления некоторых предложений.</p>
-
-    <h2>3. Реклама и спонсорский контент</h2>
-    <p>На сайте могут размещаться рекламные блоки, спонсорские материалы или промо‑материалы. Такие материалы помечаются явно и заметно. Если материал является рекламным или спонсорским, это будет указано рядом с контентом.</p>
-
-    <h2>4. Независимость рекомендаций</h2>
-    <p>Мы стремимся предоставлять полезную и актуальную информацию. Тем не менее все рекомендации и сравнения носят информационный характер. Перед принятием решения о подключении услуги рекомендуем сверять условия у оператора или поставщика услуги.</p>
-
-    <h2>5. Ответственность</h2>
-    <p>Мы не несем ответственности за действия третьих лиц, качество услуг операторов или изменения в тарифах, произошедшие после публикации материалов на сайте.</p>
-
-    <h2>6. Контакты</h2>
-    <p>По вопросам, связанным с рекламой, партнёрскими программами или для получения дополнительной информации, пожалуйста, обращайтесь: <a href="mailto:1.tarifpro@gmail.com">1.tarifpro@gmail.com</a>.</p>
-
-    <p class="muted">Если у вас есть замечания по оформлению рекламы или вы считаете, что какое‑то содержание не помечено должным образом, сообщите нам — мы оперативно проверим и исправим.</p>
+    <p>TarifPro может содержать партнёрские ссылки; при переходе мы иногда получаем вознаграждение. По вопросам: <a href="mailto:1.tarifpro@gmail.com">1.tarifpro@gmail.com</a></p>
   </div>
-
-  <script>
-    // Подставляет текущую дату в читаемом формате
-    document.addEventListener('DOMContentLoaded', function () {
-      const d = new Date();
-      const opts = { year: 'numeric', month: 'long', day: 'numeric' };
-      document.getElementById('effective-date').textContent = d.toLocaleDateString('ru-RU', opts);
-    });
-  </script>
 </body>
 </html>
