@@ -11,3 +11,13 @@ Thumbs.db
 .vscode/
 .idea/
 *.log
+# Editor / system
+.vscode/
+.DS_Store
+Thumbs.db
+*.bak
+*~
+*.log
+node_modules/
+dist/
+build/
