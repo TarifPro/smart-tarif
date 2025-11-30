@@ -61,3 +61,17 @@ body{
   .header-inner{gap:12px}
   .footer-inner{flex-direction:column;gap:8px;align-items:flex-start}
 }
+
+/* TEMP DEBUG: force links clickable and surface nav/footer for diagnosis */
+nav.site-nav a,
+footer.site-footer a,
+a {
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 9999 !important;
+}
+
+/* Visual aid: outline interactive elements so we can see overlays (remove later) */
+nav.site-nav, .hero, .site-header, .site-footer, .container {
+  outline: 1px dashed rgba(255,255,255,0.06);
+}
